@@ -9,8 +9,7 @@ namespace Proj
         SqlConnection con = new SqlConnection(@"Data Source=Anonymous;Initial Catalog=demo;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework");
         protected void Page_Load(object sender, EventArgs e)//
         {
-            txtName.Focus();
-            
+            txtName.Focus();    
         }
 
         protected void Button1_Click(object sender, EventArgs e)
